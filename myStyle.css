@@ -1,0 +1,114 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+  }
+  
+  body {
+    background-color: #393E46;
+    width: 100%;
+  }
+  
+  h1 {
+    margin: 20px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 80px;
+    color: #4ECCA3;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  img {
+    width: 80%;
+  }
+  #rollButton{
+    align-items: center;
+    background-color:rgb(148, 7, 7);
+    color:white;
+    width: 200px;
+    height: 55px;
+    border: 2.5px solid rgb(148, 7, 7);
+    letter-spacing: 2px;
+    border-radius: 2px;
+    border: 2.5px solid white;
+    font-size: 140%;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin-top: 45px;
+    font-family: 'Indie Flower', cursive;
+  }
+  #rollButton:hover{
+    background-color:white;
+    color:rgb(148, 7, 7);
+    border: 2.5px solid rgb(148, 7, 7);
+  
+    opacity: .9;
+    font-size: 140%;
+    font-weight: 1000;
+    letter-spacing: normal;
+    cursor: pointer; 
+  }
+  #result{
+    padding: 20px;
+  }
+  .result_paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .total{
+    width: 4vw;
+    height: 30px;
+    background-color: transparent;
+    text-align: center;
+    border: 0px solid;
+    color: white; 
+    font-size: 2rem;
+    color: #4ECCA3;
+  }
+#status{
+    color:#4ECCA3;
+    font-size: 2em;
+    margin-top: 15px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+  }
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .name_reg {
+    padding: 2px 16px;
+  }

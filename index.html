@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="myStyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div style="text-align: center">
+        <h1>Let's Play Craps</h1>
+      </div>
+      <br />
+      <div class="dice">
+        <img class="img1" src="images/roll.png" alt="Image Not Found" />
+      </div>
+      <div class="dice">
+        <img class="img2" src="images/dice.png" alt="Image Not Found" />
+      </div>
+      <div id="result">
+        <p class="result_paragraph">SUM : <input class="total" id = "sumfield" type = "text" disabled value="0" /></p>
+        <p class="result_paragraph">Point : <input class="total" id = "pointfield" type = "text" disabled  value="0" /></p>
+        
+            <p id = "status" class = "red">
+               Click the Roll Dice button to play</p>
+         <input type = "button" id="rollButton" value = "Roll Dice"
+        onclick = "play()" />
+      </div>
+    </div>
+    <div class="card">
+        <img src="images/burhan.png" alt="Avatar" style="width:80%">
+        <div class="name_reg">
+          <h4 style="color: white;font-size:2em;"><b>Burhan Shaheen</b></h4> 
+          <h5 style="color: white;font-size:1.2em;">4011-FBAS/BSCS/F18( B )</h5> 
+        </div>
+      </div>
+      <div class="card1">
+        <img src="images/hamza.png" alt="Avatar" style="width:80%">
+        <div class="name_reg">
+          <h4 style="color: white;font-size:2em;"><b>Hamza Daniyal</b></h4> 
+          <h5 style="color: white;font-size:1.2em;">3977-FBAS/BSCS/F18( B )</h5> 
+        </div>
+      </div>
+    <script src="MyJS.js" charset="utf-8"></script>
+  </body>
+  </html>
